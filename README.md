@@ -14,3 +14,12 @@ Edit in VS code
 
 ```rmate README.md```
 
+
+
+
+### Initial SQL Setup
+
+```sqlite3 sensorsData.db```
+```sqlite> BEGIN;```
+```sqlite> CREATE TABLE DHT_data (timestamp DATETIME,  temp NUMERIC, hum NUMERIC);```
+```sqlite> COMMIT;```
